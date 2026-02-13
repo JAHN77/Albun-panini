@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/contacto",
+    path: "/descripcion",
     element: <div>Página de Contacto</div>, 
   },
 ]);
