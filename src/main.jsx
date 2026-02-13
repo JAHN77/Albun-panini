@@ -5,14 +5,16 @@ import './index.css'
 import App from './App.jsx'
 
 
+import Cards_details from './components/Cards_details';
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
   {
-    path: "/descripcion",
-    element: <div>Página de Contacto</div>, 
+    path: "/card/:id",
+    element: <Cards_details />,
   },
 ]);
 
